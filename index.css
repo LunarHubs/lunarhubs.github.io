@@ -1,4 +1,4 @@
-html {
+html, body {
 	height: 100%;
 }
 
@@ -6,12 +6,11 @@ body {
 	font-family: Arial, sans-serif;
 	margin: 0;
 	padding: 0;
-	display: grid;
-	grid-template-rows: 1fr auto;  
+	display: flex;
+	flex-direction: column;
 }
 
 header {
-	min-height: 100%;
 	background-color: #333;
 	color: #ffffff88;
 	padding: 20px;
@@ -45,10 +44,13 @@ h2 {
 	color: #333;
 }
 
+.content {
+	flex: 1 0 auto;
+}
+
 .footer {
-	grid-row-start: 2;
-	grid-row-end: 3;
-  }
+    flex-shrink: 0;
+}
 
 footer {
 	background-color: #333;
