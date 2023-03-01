@@ -11,7 +11,7 @@ body {
 }
 
 header {
-	background-image: url(ttps://github.com/LunarHubs/lunarhubs.github.io/blob/main/Banner.png?raw=true);
+	background-image: url(./Banner.png);
 	color: #b9b9b988;
 	padding: 20px;
 }
