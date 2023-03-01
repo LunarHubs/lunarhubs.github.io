@@ -1,7 +1,7 @@
 const scrollToTopButton = document.querySelector(".scroll-to-top");
 
 window.addEventListener("scroll", () => {
-  if (window.pageYOffset > 100) {
+  if (window.pageYOffset > 10) {
     scrollToTopButton.classList.add("show");
   } else {
     scrollToTopButton.classList.remove("show");
